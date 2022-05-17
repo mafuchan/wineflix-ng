@@ -13,7 +13,7 @@ Refactor the HTML and CSS in `src/app/app.component.html` to use components.
 ```js
 const wines = [{
   id: 1,
-  imageUrl: '/assets/assets/red-wine.jpg',
+  imageUrl: '/assets/red-wine.jpg',
   isNew: true,
   label: 'Wine',
   isFinished: true,
