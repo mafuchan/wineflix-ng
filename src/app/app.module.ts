@@ -8,6 +8,10 @@ import { LogoComponent } from './logo/logo.component';
 import { LinksComponent } from './links/links.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HeroContentComponent } from './hero-content/hero-content.component';
+import { DrinkButtonComponent } from './drink-button/drink-button.component';
+import { InfoButtonComponent } from './info-button/info-button.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { NavbarComponent } from './navbar/navbar.component';
     LogoComponent,
     LinksComponent,
     AvatarComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeroContentComponent,
+    DrinkButtonComponent,
+    InfoButtonComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
