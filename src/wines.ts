@@ -1,3 +1,12 @@
+export type Wine = {
+    id: number;
+    imageUrl: string;
+    isNew?: boolean;
+    label: string;
+    isFinished?: boolean;
+    progress?: number;
+}
+
 export const wines = [{
     id: 1,
     imageUrl: '/assets/red-wine.jpg',
