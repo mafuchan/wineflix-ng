@@ -2,12 +2,8 @@
     <h2>Keep Drinking</h2>
     <ul>
         <li *ngFor="let wine of wines">
-            <div *ngIf="wine.progress" class="wine">
-                <img src="{{wine.imageUrl}}" alt="{{wine.label}}" />
-                <div class="amount-consumed">
-                    <progress min="0" max="100" value="{{wine.progress}}"></progress>
-                </div>
-            </div>
+          <app-drunkard *ngIf="wine.progress" [imageUrl]="wine.imageUrl" [label]="wine.label" [progress]="wine.progress">
+          </app-drunkard>
         </li>
     </ul>
 </section>
